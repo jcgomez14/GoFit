@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B52CA367297069080016E57A /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52CA366297069080016E57A /* OnboardingView.swift */; };
 		B54B970E296F0DBC00CCA631 /* GoFitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54B970D296F0DBC00CCA631 /* GoFitApp.swift */; };
 		B54B9710296F0DBC00CCA631 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54B970F296F0DBC00CCA631 /* HomeView.swift */; };
 		B54B9712296F0DBF00CCA631 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B54B9711296F0DBF00CCA631 /* Assets.xcassets */; };
@@ -17,9 +18,17 @@
 		B54B9727296F488500CCA631 /* TabViewCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54B9726296F488500CCA631 /* TabViewCustom.swift */; };
 		B54B972A296F4ED200CCA631 /* GoFitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54B9729296F4ED200CCA631 /* GoFitModel.swift */; };
 		B54B972D296F518B00CCA631 /* GoFitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54B972C296F518B00CCA631 /* GoFitViewModel.swift */; };
+		B57F63E529719AF30023C6A2 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57F63E429719AF30023C6A2 /* SwiftUIView.swift */; };
+		B57F63E82971AF570023C6A2 /* DiscoveryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57F63E72971AF570023C6A2 /* DiscoveryView.swift */; };
+		B57F63EA2971CEED0023C6A2 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57F63E92971CEED0023C6A2 /* UserModel.swift */; };
+		B57F63ED2976DDA40023C6A2 /* TellUsAboutYourselfView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57F63EC2976DDA40023C6A2 /* TellUsAboutYourselfView.swift */; };
+		B57F63EF2976E4700023C6A2 /* HowOldAreYouView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57F63EE2976E4700023C6A2 /* HowOldAreYouView.swift */; };
+		B57F63F1297703DF0023C6A2 /* WhatIsYourWeightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57F63F0297703DF0023C6A2 /* WhatIsYourWeightView.swift */; };
+		B57F63F3297709B90023C6A2 /* WhatIsYourHeightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57F63F2297709B90023C6A2 /* WhatIsYourHeightView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B52CA366297069080016E57A /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		B54B970A296F0DBC00CCA631 /* GoFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B54B970D296F0DBC00CCA631 /* GoFitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoFitApp.swift; sourceTree = "<group>"; };
 		B54B970F296F0DBC00CCA631 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -31,6 +40,13 @@
 		B54B9726296F488500CCA631 /* TabViewCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewCustom.swift; sourceTree = "<group>"; };
 		B54B9729296F4ED200CCA631 /* GoFitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoFitModel.swift; sourceTree = "<group>"; };
 		B54B972C296F518B00CCA631 /* GoFitViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoFitViewModel.swift; sourceTree = "<group>"; };
+		B57F63E429719AF30023C6A2 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		B57F63E72971AF570023C6A2 /* DiscoveryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryView.swift; sourceTree = "<group>"; };
+		B57F63E92971CEED0023C6A2 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		B57F63EC2976DDA40023C6A2 /* TellUsAboutYourselfView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TellUsAboutYourselfView.swift; sourceTree = "<group>"; };
+		B57F63EE2976E4700023C6A2 /* HowOldAreYouView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowOldAreYouView.swift; sourceTree = "<group>"; };
+		B57F63F0297703DF0023C6A2 /* WhatIsYourWeightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatIsYourWeightView.swift; sourceTree = "<group>"; };
+		B57F63F2297709B90023C6A2 /* WhatIsYourHeightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatIsYourHeightView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +60,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B52CA3642970623F0016E57A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B54B9725296F487600CCA631 /* TabViewCustom */,
+				B54B9722296F3E1300CCA631 /* SectionLevelWorkout */,
+				B54B971F296F256200CCA631 /* SectionFeaturedWorkOut */,
+				B54B970F296F0DBC00CCA631 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B52CA365297068F50016E57A /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				B52CA366297069080016E57A /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
 		B54B9701296F0DBB00CCA631 = {
 			isa = PBXGroup;
 			children = (
@@ -69,6 +104,7 @@
 				B54B970D296F0DBC00CCA631 /* GoFitApp.swift */,
 				B54B9711296F0DBF00CCA631 /* Assets.xcassets */,
 				B54B9713296F0DBF00CCA631 /* Preview Content */,
+				B57F63E429719AF30023C6A2 /* SwiftUIView.swift */,
 			);
 			path = GoFit;
 			sourceTree = "<group>";
@@ -84,11 +120,11 @@
 		B54B971B296F142700CCA631 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				B54B9725296F487600CCA631 /* TabViewCustom */,
-				B54B9722296F3E1300CCA631 /* SectionLevelWorkout */,
-				B54B971F296F256200CCA631 /* SectionFeaturedWorkOut */,
+				B57F63EB2976DCF40023C6A2 /* Login */,
 				B54B971C296F167500CCA631 /* LogoView */,
-				B54B970F296F0DBC00CCA631 /* HomeView.swift */,
+				B57F63E62971AF460023C6A2 /* Discovery */,
+				B52CA365297068F50016E57A /* Onboarding */,
+				B52CA3642970623F0016E57A /* Home */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -129,6 +165,7 @@
 			isa = PBXGroup;
 			children = (
 				B54B9729296F4ED200CCA631 /* GoFitModel.swift */,
+				B57F63E92971CEED0023C6A2 /* UserModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -139,6 +176,25 @@
 				B54B972C296F518B00CCA631 /* GoFitViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B57F63E62971AF460023C6A2 /* Discovery */ = {
+			isa = PBXGroup;
+			children = (
+				B57F63E72971AF570023C6A2 /* DiscoveryView.swift */,
+			);
+			path = Discovery;
+			sourceTree = "<group>";
+		};
+		B57F63EB2976DCF40023C6A2 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B57F63EC2976DDA40023C6A2 /* TellUsAboutYourselfView.swift */,
+				B57F63EE2976E4700023C6A2 /* HowOldAreYouView.swift */,
+				B57F63F0297703DF0023C6A2 /* WhatIsYourWeightView.swift */,
+				B57F63F2297709B90023C6A2 /* WhatIsYourHeightView.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,10 +270,18 @@
 				B54B971E296F168600CCA631 /* LogoView.swift in Sources */,
 				B54B9721296F25A600CCA631 /* FeaturedWorkOutCard.swift in Sources */,
 				B54B9724296F3E3000CCA631 /* LevelWorkOut.swift in Sources */,
+				B52CA367297069080016E57A /* OnboardingView.swift in Sources */,
+				B57F63ED2976DDA40023C6A2 /* TellUsAboutYourselfView.swift in Sources */,
+				B57F63E529719AF30023C6A2 /* SwiftUIView.swift in Sources */,
+				B57F63EF2976E4700023C6A2 /* HowOldAreYouView.swift in Sources */,
 				B54B9710296F0DBC00CCA631 /* HomeView.swift in Sources */,
+				B57F63F3297709B90023C6A2 /* WhatIsYourHeightView.swift in Sources */,
+				B57F63E82971AF570023C6A2 /* DiscoveryView.swift in Sources */,
 				B54B972D296F518B00CCA631 /* GoFitViewModel.swift in Sources */,
 				B54B970E296F0DBC00CCA631 /* GoFitApp.swift in Sources */,
 				B54B972A296F4ED200CCA631 /* GoFitModel.swift in Sources */,
+				B57F63EA2971CEED0023C6A2 /* UserModel.swift in Sources */,
+				B57F63F1297703DF0023C6A2 /* WhatIsYourWeightView.swift in Sources */,
 				B54B9727296F488500CCA631 /* TabViewCustom.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,13 +411,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"GoFit/Preview Content\"";
+				DEVELOPMENT_TEAM = 2VX9TQZ48A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -375,13 +439,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"GoFit/Preview Content\"";
+				DEVELOPMENT_TEAM = 2VX9TQZ48A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
