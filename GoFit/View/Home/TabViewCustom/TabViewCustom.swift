@@ -11,7 +11,7 @@ struct TabViewCustom: View {
                        .frame(width: 10, height: 10)
                    Text("Home")
                }
-           Color.red
+           DiscoveryView()
                .tabItem {
                    Image(systemName: "magnifyingglass")
                        .resizable()
@@ -32,7 +32,10 @@ struct TabViewCustom: View {
                        .frame(width: 10, height: 10)
                    Text("Profile")
                }
-       }.accentColor(Color("primary"))
+       }
+       .accentColor(Color("primary"))
+            .navigationBarBackButtonHidden()
+            
     }
 }
 

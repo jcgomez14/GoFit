@@ -5,7 +5,8 @@ import SwiftUI
 struct GoFitApp: App {
     var body: some Scene {
         WindowGroup {
-            TabViewCustom()
+            // TabViewCustom()
+           TellUsAboutYourselfView()
         }
     }
 }

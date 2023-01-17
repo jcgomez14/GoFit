@@ -15,25 +15,15 @@ struct HomeView: View {
                         FeaturedWorkoutCard()
                     }.padding(.leading)
                 }
-                SectionLevelWorkout()
-                ScrollView(showsIndicators: false){
-                    VStack{
-                        LevelWorkOut()
-                        LevelWorkOut()
-                        LevelWorkOut()
-                        LevelWorkOut()
-                        LevelWorkOut()
-                        LevelWorkOut()
-                        LevelWorkOut()
-                    }
-                }
-                Spacer()
-            }.toolbar{
-                self.toolBarView()
+                    SectionLevelWorkout()
+                }.toolbar{
+                    self.toolBarView()
+                    
+            }
             }.navigationBarTitleDisplayMode(.inline)
         }
     }
-}
+
 
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
