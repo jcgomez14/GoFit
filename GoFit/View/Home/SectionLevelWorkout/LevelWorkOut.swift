@@ -6,6 +6,7 @@ struct LevelWorkOut: View {
     @State private var filterlevel = SectionLevelWorkout()
     @Binding var selectedView: Int
     @State var saveB: Bool = false
+    @State var presentView = false
     
     var body: some View {
         let beginner =  levelWorkOut.GoFitList.filter {$0.level == "Beginner"}
@@ -16,7 +17,7 @@ struct LevelWorkOut: View {
             if selectedView  == 1 {
                 ForEach(beginner) { item in
                     Button {
-                        
+                        presentView.toggle()
                     } label: {
                         ZStack{
                             Image(item.image)
@@ -53,8 +54,6 @@ struct LevelWorkOut: View {
                             .padding(.top, 100)
                         }
                     }
-
-
                 }
             } else if selectedView == 2 {
                 ForEach(intermediate) { item in
@@ -187,7 +186,10 @@ struct LevelWorkOut: View {
                 }
             }
         }
-        
+        .sheet(isPresented: $presentView) {
+            BottomSheetView()
+                .presentationDetents([.medium])
+        }
     }
     
 }

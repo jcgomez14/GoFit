@@ -119,6 +119,7 @@ extension InsigthView {
                     Text("cal")
                         .font(.system(size: 20, weight: .regular, design: .rounded))
                 }
+
             }
             .padding(EdgeInsets(top: 0, leading: 20, bottom: 0, trailing: 20))
             
