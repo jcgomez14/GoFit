@@ -26,6 +26,7 @@
 		B57F63F1297703DF0023C6A2 /* WhatIsYourWeightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57F63F0297703DF0023C6A2 /* WhatIsYourWeightView.swift */; };
 		B57F63F3297709B90023C6A2 /* WhatIsYourHeightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57F63F2297709B90023C6A2 /* WhatIsYourHeightView.swift */; };
 		B5BC74F92978519E00841EA4 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BC74F82978519E00841EA4 /* ProfileView.swift */; };
+		B5BC74FC29787B8700841EA4 /* BottomSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BC74FB29787B8700841EA4 /* BottomSheetView.swift */; };
 		B5F5C83A297816FE006C3088 /* InsigthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F5C839297816FE006C3088 /* InsigthView.swift */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +51,7 @@
 		B57F63F0297703DF0023C6A2 /* WhatIsYourWeightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatIsYourWeightView.swift; sourceTree = "<group>"; };
 		B57F63F2297709B90023C6A2 /* WhatIsYourHeightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatIsYourHeightView.swift; sourceTree = "<group>"; };
 		B5BC74F82978519E00841EA4 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		B5BC74FB29787B8700841EA4 /* BottomSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetView.swift; sourceTree = "<group>"; };
 		B5F5C839297816FE006C3088 /* InsigthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsigthView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -67,6 +69,7 @@
 		B52CA3642970623F0016E57A /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				B5BC74FA29787B7800841EA4 /* BottomSheet */,
 				B54B9725296F487600CCA631 /* TabViewCustom */,
 				B54B9722296F3E1300CCA631 /* SectionLevelWorkout */,
 				B54B971F296F256200CCA631 /* SectionFeaturedWorkOut */,
@@ -211,6 +214,14 @@
 			path = Profile;
 			sourceTree = "<group>";
 		};
+		B5BC74FA29787B7800841EA4 /* BottomSheet */ = {
+			isa = PBXGroup;
+			children = (
+				B5BC74FB29787B8700841EA4 /* BottomSheetView.swift */,
+			);
+			path = BottomSheet;
+			sourceTree = "<group>";
+		};
 		B5F5C838297816EA006C3088 /* Insigth */ = {
 			isa = PBXGroup;
 			children = (
@@ -299,6 +310,7 @@
 				B54B9710296F0DBC00CCA631 /* HomeView.swift in Sources */,
 				B57F63F3297709B90023C6A2 /* WhatIsYourHeightView.swift in Sources */,
 				B5F5C83A297816FE006C3088 /* InsigthView.swift in Sources */,
+				B5BC74FC29787B8700841EA4 /* BottomSheetView.swift in Sources */,
 				B5BC74F92978519E00841EA4 /* ProfileView.swift in Sources */,
 				B57F63E82971AF570023C6A2 /* DiscoveryView.swift in Sources */,
 				B54B972D296F518B00CCA631 /* GoFitViewModel.swift in Sources */,
