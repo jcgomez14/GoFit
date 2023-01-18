@@ -18,14 +18,14 @@ struct TabViewCustom: View {
                        .frame(width: 10, height: 10)
                    Text("Discovery")
                }
-           Color.black
+           InsigthView()
                .tabItem {
                    Image(systemName: "slider.vertical.3")
                        .resizable()
                        .frame(width: 10, height: 10)
                    Text("Insight")
                }
-           Color.white
+           ProfileView()
                .tabItem {
                    Image(systemName: "person")
                        .resizable()

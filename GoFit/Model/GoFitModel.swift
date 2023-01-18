@@ -22,4 +22,29 @@ struct GoFitModel: Identifiable {
         ]
     }
     
+    
+    struct FinishWork: Identifiable {
+        let id = UUID()
+        var training: String
+        var level: String
+        var image: String
+        var time: Int
+        var cal: Int
+        var bpm: Int
+        var workout: Int
+    
+        static func getFinish() -> [FinishWork] {
+            return [
+                .init(training: "Runnning", level: "Beginner", image: "training12", time: 18, cal: 945, bpm: 72, workout: 30),
+                .init(training: "Dumbbell Exercise", level: "Beginner", image: "training8", time: 15, cal: 734, bpm: 67, workout: 25),
+                .init(training: "Full Body Stretching", level: "Intermediate", image: "training2", time: 10, cal: 457, bpm: 69, workout: 18),
+            ]
+        }
+        
+        
+        
+        
+    }
+    
+    
 }

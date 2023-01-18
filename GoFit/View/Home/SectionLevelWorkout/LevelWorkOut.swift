@@ -15,154 +15,174 @@ struct LevelWorkOut: View {
         ScrollView(showsIndicators: false) {
             if selectedView  == 1 {
                 ForEach(beginner) { item in
-                    ZStack{
-                        Image(item.image)
-                            .resizable()
-                            .aspectRatio(contentMode: .fill)
-                            .frame(width: 350, height: 150)
-                            .clipShape(RoundedRectangle(cornerRadius: 40))
-                            .overlay(RoundedRectangle(cornerRadius: 40)
-                                .fill(LinearGradient(colors: [
-                                    Color.black,
-                                    Color.clear,
-                                    Color.clear,
-                                ] , startPoint: .bottom, endPoint: .top))
-                            )
-                        VStack {
-                            Text(item.training)
-                                .foregroundColor(Color.white)
-                                .font(.system(size: 22, weight: .semibold))
-                                .padding(.top, 50)
-                        }
-                        HStack(spacing: 140){
-                            Text("\(item.time) | \(item.level)")
-                                .font(.system(size: 10, weight: .light))
-                                .foregroundColor(Color.white)
-                            Button {
-                                saveB.toggle()
-                            } label: {
-                                Image(systemName: saveB ? "rectangle.roundedbottom.fill" : "rectangle.roundedbottom")
-                                    .resizable()
-                                    .frame(width: 15, height: 15)
+                    Button {
+                        
+                    } label: {
+                        ZStack{
+                            Image(item.image)
+                                .resizable()
+                                .aspectRatio(contentMode: .fill)
+                                .frame(width: 350, height: 150)
+                                .clipShape(RoundedRectangle(cornerRadius: 40))
+                                .overlay(RoundedRectangle(cornerRadius: 40)
+                                    .fill(LinearGradient(colors: [
+                                        Color.black,
+                                        Color.clear,
+                                        Color.clear,
+                                    ] , startPoint: .bottom, endPoint: .top))
+                                )
+                            VStack {
+                                Text(item.training)
                                     .foregroundColor(Color.white)
+                                    .font(.system(size: 22, weight: .semibold))
+                                    .padding(.top, 50)
                             }
+                            HStack(spacing: 140){
+                                Text("\(item.time) | \(item.level)")
+                                    .font(.system(size: 10, weight: .light))
+                                    .foregroundColor(Color.white)
+                                Button {
+                                    saveB.toggle()
+                                } label: {
+                                    Image(systemName: saveB ? "rectangle.roundedbottom.fill" : "rectangle.roundedbottom")
+                                        .resizable()
+                                        .frame(width: 15, height: 15)
+                                        .foregroundColor(Color.white)
+                                }
+                            }
+                            .padding(.top, 100)
                         }
-                        .padding(.top, 100)
                     }
+
+
                 }
-                
             } else if selectedView == 2 {
                 ForEach(intermediate) { item in
-                    ZStack{
-                        Image(item.image)
-                            .resizable()
-                            .aspectRatio(contentMode: .fill)
-                            .frame(width: 350, height: 150)
-                            .clipShape(RoundedRectangle(cornerRadius: 40))
-                            .overlay(RoundedRectangle(cornerRadius: 40)
-                                .fill(LinearGradient(colors: [
-                                    Color.black,
-                                    Color.clear,
-                                    Color.clear,
-                                ] , startPoint: .bottom, endPoint: .top))
-                            )
-                        VStack {
-                            Text(item.training)
-                                .foregroundColor(Color.white)
-                                .font(.system(size: 22, weight: .semibold))
-                                .padding(.top, 50)
-                        }
-                        HStack(spacing: 140){
-                            Text("\(item.time) | \(item.level)")
-                                .font(.system(size: 10, weight: .light))
-                                .foregroundColor(Color.white)
-                            Button {
-                               
-                                saveB.toggle()
-                            } label: {
-                                Image(systemName: saveB ? "rectangle.roundedbottom.fill" : "rectangle.roundedbottom")
-                                    .resizable()
-                                    .frame(width: 15, height: 15)
+                    Button {
+                        
+                    } label: {
+                        ZStack{
+                            Image(item.image)
+                                .resizable()
+                                .aspectRatio(contentMode: .fill)
+                                .frame(width: 350, height: 150)
+                                .clipShape(RoundedRectangle(cornerRadius: 40))
+                                .overlay(RoundedRectangle(cornerRadius: 40)
+                                    .fill(LinearGradient(colors: [
+                                        Color.black,
+                                        Color.clear,
+                                        Color.clear,
+                                    ] , startPoint: .bottom, endPoint: .top))
+                                )
+                            VStack {
+                                Text(item.training)
                                     .foregroundColor(Color.white)
+                                    .font(.system(size: 22, weight: .semibold))
+                                    .padding(.top, 50)
                             }
+                            HStack(spacing: 140){
+                                Text("\(item.time) | \(item.level)")
+                                    .font(.system(size: 10, weight: .light))
+                                    .foregroundColor(Color.white)
+                                Button {
+                                   
+                                    saveB.toggle()
+                                } label: {
+                                    Image(systemName: saveB ? "rectangle.roundedbottom.fill" : "rectangle.roundedbottom")
+                                        .resizable()
+                                        .frame(width: 15, height: 15)
+                                        .foregroundColor(Color.white)
+                                }
+                            }
+                            .padding(.top, 100)
                         }
-                        .padding(.top, 100)
                     }
+
+
                 }
             } else if selectedView == 3 {
                 ForEach(advanced) { item in
-                    ZStack{
-                        Image(item.image)
-                            .resizable()
-                            .aspectRatio(contentMode: .fill)
-                            .frame(width: 350, height: 150)
-                            .clipShape(RoundedRectangle(cornerRadius: 40))
-                            .overlay(RoundedRectangle(cornerRadius: 40)
-                                .fill(LinearGradient(colors: [
-                                    Color.black,
-                                    Color.clear,
-                                    Color.clear,
-                                ] , startPoint: .bottom, endPoint: .top))
-                            )
-                        VStack {
-                            Text(item.training)
-                                .foregroundColor(Color.white)
-                                .font(.system(size: 22, weight: .semibold))
-                                .padding(.top, 50)
-                        }
-                        HStack(spacing: 140){
-                            Text("\(item.time) | \(item.level)")
-                                .font(.system(size: 10, weight: .light))
-                                .foregroundColor(Color.white)
-                            Button {
-                                
-                                    saveB.toggle()
-                            } label: {
-                                Image(systemName: saveB ? "rectangle.roundedbottom.fill" : "rectangle.roundedbottom")
-                                    .resizable()
-                                    .frame(width: 15, height: 15)
+                    
+                    Button {
+        
+                    } label: {
+                        ZStack{
+                            Image(item.image)
+                                .resizable()
+                                .aspectRatio(contentMode: .fill)
+                                .frame(width: 350, height: 150)
+                                .clipShape(RoundedRectangle(cornerRadius: 40))
+                                .overlay(RoundedRectangle(cornerRadius: 40)
+                                    .fill(LinearGradient(colors: [
+                                        Color.black,
+                                        Color.clear,
+                                        Color.clear,
+                                    ] , startPoint: .bottom, endPoint: .top))
+                                )
+                            VStack {
+                                Text(item.training)
                                     .foregroundColor(Color.white)
+                                    .font(.system(size: 22, weight: .semibold))
+                                    .padding(.top, 50)
                             }
+                            HStack(spacing: 140){
+                                Text("\(item.time) | \(item.level)")
+                                    .font(.system(size: 10, weight: .light))
+                                    .foregroundColor(Color.white)
+                                Button {
+                                    
+                                        saveB.toggle()
+                                } label: {
+                                    Image(systemName: saveB ? "rectangle.roundedbottom.fill" : "rectangle.roundedbottom")
+                                        .resizable()
+                                        .frame(width: 15, height: 15)
+                                        .foregroundColor(Color.white)
+                                }
+                            }
+                            .padding(.top, 100)
                         }
-                        .padding(.top, 100)
                     }
                 }
             } else {
                 ForEach(levelWorkOut.GoFitList.shuffled()) { item in
-                    ZStack{
-                        Image(item.image)
-                            .resizable()
-                            .aspectRatio(contentMode: .fill)
-                            .frame(width: 350, height: 150)
-                            .clipShape(RoundedRectangle(cornerRadius: 40))
-                            .overlay(RoundedRectangle(cornerRadius: 40)
-                                .fill(LinearGradient(colors: [
-                                    Color.black,
-                                    Color.clear,
-                                    Color.clear,
-                                ] , startPoint: .bottom, endPoint: .top))
-                            )
-                        VStack {
-                            Text(item.training)
-                                .foregroundColor(Color.white)
-                                .font(.system(size: 22, weight: .semibold))
-                                .padding(.top, 50)
-                        }
-                        HStack(spacing: 140){
-                            Text("\(item.time) | \(item.level)")
-                                .font(.system(size: 10, weight: .light))
-                                .foregroundColor(Color.white)
-                            Button {
-                            
-                                saveB.toggle()
-                            } label: {
-                                Image(systemName: saveB ? "rectangle.roundedbottom.fill" : "rectangle.roundedbottom")
-                                    .resizable()
-                                    .frame(width: 15, height: 15)
+                    Button {
+                        
+                    } label: {
+                        ZStack{
+                            Image(item.image)
+                                .resizable()
+                                .aspectRatio(contentMode: .fill)
+                                .frame(width: 350, height: 150)
+                                .clipShape(RoundedRectangle(cornerRadius: 40))
+                                .overlay(RoundedRectangle(cornerRadius: 40)
+                                    .fill(LinearGradient(colors: [
+                                        Color.black,
+                                        Color.clear,
+                                        Color.clear,
+                                    ] , startPoint: .bottom, endPoint: .top))
+                                )
+                            VStack {
+                                Text(item.training)
                                     .foregroundColor(Color.white)
+                                    .font(.system(size: 22, weight: .semibold))
+                                    .padding(.top, 50)
                             }
+                            HStack(spacing: 140){
+                                Text("\(item.time) | \(item.level)")
+                                    .font(.system(size: 10, weight: .light))
+                                    .foregroundColor(Color.white)
+                                Button {
+                                
+                                    saveB.toggle()
+                                } label: {
+                                    Image(systemName: saveB ? "rectangle.roundedbottom.fill" : "rectangle.roundedbottom")
+                                        .resizable()
+                                        .frame(width: 15, height: 15)
+                                        .foregroundColor(Color.white)
+                                }
+                            }
+                            .padding(.top, 100)
                         }
-                        .padding(.top, 100)
                     }
                 }
             }
