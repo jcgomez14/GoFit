@@ -58,7 +58,7 @@ struct LevelWorkOut: View {
             } else if selectedView == 2 {
                 ForEach(intermediate) { item in
                     Button {
-                        
+                        presentView.toggle()
                     } label: {
                         ZStack{
                             Image(item.image)
@@ -103,7 +103,7 @@ struct LevelWorkOut: View {
                 ForEach(advanced) { item in
                     
                     Button {
-        
+                        presentView.toggle()
                     } label: {
                         ZStack{
                             Image(item.image)
@@ -191,9 +191,7 @@ struct LevelWorkOut: View {
                 .presentationDetents([.medium])
         }
     }
-    
 }
-
 
 struct LevelWorkOut_Previews: PreviewProvider {
     static var previews: some View {
