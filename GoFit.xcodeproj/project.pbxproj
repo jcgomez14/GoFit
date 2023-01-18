@@ -21,10 +21,6 @@
 		B57F63E529719AF30023C6A2 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57F63E429719AF30023C6A2 /* SwiftUIView.swift */; };
 		B57F63E82971AF570023C6A2 /* DiscoveryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57F63E72971AF570023C6A2 /* DiscoveryView.swift */; };
 		B57F63EA2971CEED0023C6A2 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57F63E92971CEED0023C6A2 /* UserModel.swift */; };
-		B57F63ED2976DDA40023C6A2 /* TellUsAboutYourselfView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57F63EC2976DDA40023C6A2 /* TellUsAboutYourselfView.swift */; };
-		B57F63EF2976E4700023C6A2 /* HowOldAreYouView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57F63EE2976E4700023C6A2 /* HowOldAreYouView.swift */; };
-		B57F63F1297703DF0023C6A2 /* WhatIsYourWeightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57F63F0297703DF0023C6A2 /* WhatIsYourWeightView.swift */; };
-		B57F63F3297709B90023C6A2 /* WhatIsYourHeightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57F63F2297709B90023C6A2 /* WhatIsYourHeightView.swift */; };
 		B5BC74F92978519E00841EA4 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BC74F82978519E00841EA4 /* ProfileView.swift */; };
 		B5BC74FC29787B8700841EA4 /* BottomSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BC74FB29787B8700841EA4 /* BottomSheetView.swift */; };
 		B5F5C83A297816FE006C3088 /* InsigthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F5C839297816FE006C3088 /* InsigthView.swift */; };
@@ -46,10 +42,6 @@
 		B57F63E429719AF30023C6A2 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		B57F63E72971AF570023C6A2 /* DiscoveryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryView.swift; sourceTree = "<group>"; };
 		B57F63E92971CEED0023C6A2 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
-		B57F63EC2976DDA40023C6A2 /* TellUsAboutYourselfView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TellUsAboutYourselfView.swift; sourceTree = "<group>"; };
-		B57F63EE2976E4700023C6A2 /* HowOldAreYouView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowOldAreYouView.swift; sourceTree = "<group>"; };
-		B57F63F0297703DF0023C6A2 /* WhatIsYourWeightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatIsYourWeightView.swift; sourceTree = "<group>"; };
-		B57F63F2297709B90023C6A2 /* WhatIsYourHeightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatIsYourHeightView.swift; sourceTree = "<group>"; };
 		B5BC74F82978519E00841EA4 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		B5BC74FB29787B8700841EA4 /* BottomSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomSheetView.swift; sourceTree = "<group>"; };
 		B5F5C839297816FE006C3088 /* InsigthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsigthView.swift; sourceTree = "<group>"; };
@@ -129,7 +121,6 @@
 			children = (
 				B5BC74F72978519100841EA4 /* Profile */,
 				B5F5C838297816EA006C3088 /* Insigth */,
-				B57F63EB2976DCF40023C6A2 /* Login */,
 				B54B971C296F167500CCA631 /* LogoView */,
 				B57F63E62971AF460023C6A2 /* Discovery */,
 				B52CA365297068F50016E57A /* Onboarding */,
@@ -193,17 +184,6 @@
 				B57F63E72971AF570023C6A2 /* DiscoveryView.swift */,
 			);
 			path = Discovery;
-			sourceTree = "<group>";
-		};
-		B57F63EB2976DCF40023C6A2 /* Login */ = {
-			isa = PBXGroup;
-			children = (
-				B57F63EC2976DDA40023C6A2 /* TellUsAboutYourselfView.swift */,
-				B57F63EE2976E4700023C6A2 /* HowOldAreYouView.swift */,
-				B57F63F0297703DF0023C6A2 /* WhatIsYourWeightView.swift */,
-				B57F63F2297709B90023C6A2 /* WhatIsYourHeightView.swift */,
-			);
-			path = Login;
 			sourceTree = "<group>";
 		};
 		B5BC74F72978519100841EA4 /* Profile */ = {
@@ -304,11 +284,8 @@
 				B54B9721296F25A600CCA631 /* FeaturedWorkOutCard.swift in Sources */,
 				B54B9724296F3E3000CCA631 /* LevelWorkOut.swift in Sources */,
 				B52CA367297069080016E57A /* OnboardingView.swift in Sources */,
-				B57F63ED2976DDA40023C6A2 /* TellUsAboutYourselfView.swift in Sources */,
 				B57F63E529719AF30023C6A2 /* SwiftUIView.swift in Sources */,
-				B57F63EF2976E4700023C6A2 /* HowOldAreYouView.swift in Sources */,
 				B54B9710296F0DBC00CCA631 /* HomeView.swift in Sources */,
-				B57F63F3297709B90023C6A2 /* WhatIsYourHeightView.swift in Sources */,
 				B5F5C83A297816FE006C3088 /* InsigthView.swift in Sources */,
 				B5BC74FC29787B8700841EA4 /* BottomSheetView.swift in Sources */,
 				B5BC74F92978519E00841EA4 /* ProfileView.swift in Sources */,
@@ -317,7 +294,6 @@
 				B54B970E296F0DBC00CCA631 /* GoFitApp.swift in Sources */,
 				B54B972A296F4ED200CCA631 /* GoFitModel.swift in Sources */,
 				B57F63EA2971CEED0023C6A2 /* UserModel.swift in Sources */,
-				B57F63F1297703DF0023C6A2 /* WhatIsYourWeightView.swift in Sources */,
 				B54B9727296F488500CCA631 /* TabViewCustom.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
