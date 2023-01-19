@@ -4,7 +4,6 @@ import SwiftUI
 struct ProfileView: View {
     @State private var toogle = false
     
-    
     var body: some View {
         NavigationStack {
             VStack {
@@ -49,9 +48,7 @@ extension ProfileView {
                 .frame(width: 20, height: 5)
         }
     }
-    
-    
-    
+  
     var profileHeader: some View {
         VStack(spacing: -30) {
             Image("profile")
@@ -153,10 +150,6 @@ extension ProfileView {
                         .foregroundColor(Color.red)
                 }
             }.listStyle(.plain)
-            
-            
         }
     }
-    
-    
 }

@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B52CA367297069080016E57A /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52CA366297069080016E57A /* OnboardingView.swift */; };
 		B54B970E296F0DBC00CCA631 /* GoFitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54B970D296F0DBC00CCA631 /* GoFitApp.swift */; };
 		B54B9710296F0DBC00CCA631 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54B970F296F0DBC00CCA631 /* HomeView.swift */; };
 		B54B9712296F0DBF00CCA631 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B54B9711296F0DBF00CCA631 /* Assets.xcassets */; };
@@ -27,7 +26,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B52CA366297069080016E57A /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		B54B970A296F0DBC00CCA631 /* GoFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B54B970D296F0DBC00CCA631 /* GoFitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoFitApp.swift; sourceTree = "<group>"; };
 		B54B970F296F0DBC00CCA631 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -68,14 +66,6 @@
 				B54B970F296F0DBC00CCA631 /* HomeView.swift */,
 			);
 			path = Home;
-			sourceTree = "<group>";
-		};
-		B52CA365297068F50016E57A /* Onboarding */ = {
-			isa = PBXGroup;
-			children = (
-				B52CA366297069080016E57A /* OnboardingView.swift */,
-			);
-			path = Onboarding;
 			sourceTree = "<group>";
 		};
 		B54B9701296F0DBB00CCA631 = {
@@ -123,7 +113,6 @@
 				B5F5C838297816EA006C3088 /* Insigth */,
 				B54B971C296F167500CCA631 /* LogoView */,
 				B57F63E62971AF460023C6A2 /* Discovery */,
-				B52CA365297068F50016E57A /* Onboarding */,
 				B52CA3642970623F0016E57A /* Home */,
 			);
 			path = View;
@@ -283,7 +272,6 @@
 				B54B971E296F168600CCA631 /* LogoView.swift in Sources */,
 				B54B9721296F25A600CCA631 /* FeaturedWorkOutCard.swift in Sources */,
 				B54B9724296F3E3000CCA631 /* LevelWorkOut.swift in Sources */,
-				B52CA367297069080016E57A /* OnboardingView.swift in Sources */,
 				B57F63E529719AF30023C6A2 /* SwiftUIView.swift in Sources */,
 				B54B9710296F0DBC00CCA631 /* HomeView.swift in Sources */,
 				B5F5C83A297816FE006C3088 /* InsigthView.swift in Sources */,
